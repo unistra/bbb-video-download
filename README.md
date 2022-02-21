@@ -133,6 +133,7 @@ sudo -u bigbluebutton docker-compose run --rm --user 997:996 app node index.js -
 - - removed chapter marks
 - 1.1.1 - 1.1.4 minor bug fixes
 - 1.2.0 dockerization of the script due to memory management
+- 1.2.1 Updates ffmpeg directive to encode slides as movie.
 
 ## Acknowledgement
 Special thanks go to @ichdasich, @deiflou and @christmart for providing enhancements and outstanding support in testing the application.
