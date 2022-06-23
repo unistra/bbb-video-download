@@ -31,10 +31,10 @@ const onlyDeskshares = async (deskshares) => {
 }
 
 const combinedSlidesAndDeskshares = async (slides, deskshares, config, duration) => {
-    // const width = slides.viewport.width
-    // const height = slides.viewport.height
-    const width = '1280'
-    const height = '1024'
+    const width = slides.viewport.width
+    const height = slides.viewport.height
+    // const width = '1280'
+    // const height = '1024'
     const resizedDesksharesVideo = config.workdir + '/deskshare.mp4'
     const presentationTmp = config.workdir + '/presentation.tmp.mp4'
     const presentationOut = config.workdir + '/presentation.mp4'
